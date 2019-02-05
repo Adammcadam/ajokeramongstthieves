@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/* ------------------------------- Heading -----*/
+
+.logo {
+    background-image: url("../images/headline.jpg");
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+/* --------------------------- Nav -------------*/
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    padding: 0;
+    border-radius: 60px;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 25px;
+    display: block;
+    color: white;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+
+
+
+/* ------------------------- Hover.css ------*/
+
+.hvr-bounce-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
