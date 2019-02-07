@@ -10,51 +10,73 @@ header {
     background-image: url("../images/header.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
+    height: 100%;
     min-height: 240px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     padding: 0;
-    border-color: #000000
-}
-
-#nav {
-    margin: 0;
-}
-
-#nav li {
-    padding: 0;
     
 }
 
-.menuitem {
-    height: 60px;
-    text-align: center;
-    padding: 0;
+.nav-item {
+    height: 30px;
+    text-align: left;
+    padding: 0px;
 }
 
-.menuitem a {
+.nav-item a {
     width: 100%;
     text-decoration: none;
     color: white;
-    height: 60px;
+    height: 30px;
 }
 
-.menuitem a i {
-    padding-top: 25px;
+.nav-item a i{
+    padding-top: 0;
     display: block;
     color: white;
     font-size: 26px;
 }
 
-.menuitem span {
+.nav-item span {
     display: block;
-    width: 100%;
-    padding-top: 12px;
+    padding-left: 10px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 300;
-    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+/* --------------------- Hover.CSS -------*/
+
+.hvr-bounce-to-bottom:before {
+    background: #534A4A;
+    height: 30px;
+}
+
+/* --------------------- colours -------*/
+
+.color-home {
+    background-color: #000000
+}
+
+.color-music {
+    background-color: #000000
+}
+
+.color-photos {
+    background-color: #000000
+}
+
+.color-contact-us {
+    background-color: #000000
+}
+
+.section {
+    background-color: : #534A4A
+    margin: 0;
 }
