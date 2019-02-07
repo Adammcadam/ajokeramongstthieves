@@ -19,6 +19,7 @@ header {
 }
 
 .nav-item {
+    font-family: "Roboto", sans-serif
     height: 30px;
     text-align: left;
     padding: 0px;
@@ -56,6 +57,18 @@ header {
     height: 30px;
 }
 
+/* --------------------- specials -------*/
+
+.inline-block {
+    display: inline-block;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
 /* --------------------- colours -------*/
 
 .color-home {
@@ -86,6 +99,7 @@ header {
 /* --------------------- footer -------*/
 
 footer {
+    display: inline-block;
     background-color: #000000;
     color: #fafafa;
     min-height: 60px;
@@ -97,15 +111,24 @@ footer {
     background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100%;
     min-height: 60px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-    padding: 0;
+    padding-top: 10px;
+}
+
+.container-fluid {
+    align-items: center;
+}
+
+.social-links {
+    display: inline-block;
+    padding-bottom: 15px;
 }
 
 .social-links li a i {
+    
     width: 32px;
     height: 32px;
     padding: 12px 0;
@@ -124,3 +147,4 @@ footer {
 .social-links li a i:hover {
     background: #808080;
 }
+
