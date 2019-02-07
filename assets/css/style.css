@@ -16,8 +16,6 @@ header {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-    padding: 0;
-    
 }
 
 .nav-item {
@@ -37,7 +35,7 @@ header {
     padding-top: 0;
     display: block;
     color: white;
-    font-size: 26px;
+    font-size: 32px;
 }
 
 .nav-item span {
@@ -76,7 +74,53 @@ header {
     background-color: #000000
 }
 
+.footer {
+    background-color: #000000;
+}
+
 .section {
-    background-color: : #534A4A
+    background-color:#534A4A;
     margin: 0;
+}
+
+/* --------------------- footer -------*/
+
+footer {
+    background-color: #000000;
+    color: #fafafa;
+    min-height: 60px;
+    margin: 0;
+}
+
+.foot-logo {
+    background-image: url("../images/Footer.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-height: 60px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    padding: 0;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #000000;
+    background: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #808080;
 }
