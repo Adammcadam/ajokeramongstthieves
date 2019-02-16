@@ -48,6 +48,10 @@ header {
     letter-spacing: 1px;
 }
 
+.active {
+    background-color: #191919;
+}
+
 /* --------------------- Section -------*/
 
 section {
@@ -265,7 +269,6 @@ footer {
 
 .list-inline li {
     display: inline-block;
-    padding-right: 5px;
     padding-left: 5px;
 }
 
