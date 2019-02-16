@@ -19,7 +19,7 @@ header {
 }
 
 .nav-item {
-    font-family: "Roboto", sans-serif
+    font-family: "Roboto", sans-serif;
     height: 30px;
     text-align: left;
     padding: 0px;
@@ -159,6 +159,25 @@ tracklist {
 
 
 /* --------------------- Photos -------*/
+
+.image-grid {
+    color: #fafafa;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary:hover {
+    background-color: #808080;
+}
+
+/* --------------------- Contact -------*/
+
+.btn-primary {
+    color: #fafafa;
+    background-color: #191919;
+    margin-top: 15px;
+}
 
 
 /* --------------------- footer -------*/
