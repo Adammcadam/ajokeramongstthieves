@@ -203,20 +203,6 @@ tracklist {
   vertical-align: middle;
 }
 
-@media screen and (min-width: 800px) {
-  .column {
-    flex: 50%;
-    min-width: 50%;
-  }
-}
-
-@media screen and (min-width: 600px) {
-  .column {
-    flex: 100%;
-    min-width: 100%;
-  }
-}
-
 /* --------------------- footer -------*/
 
 footer {
