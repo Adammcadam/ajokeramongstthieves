@@ -65,7 +65,7 @@ section {
 
 ul.timeline {
     list-style-type: none;
-    position: absolute;
+    position: relative;
     color: #fafafa;
 }
 ul.timeline:before {
@@ -112,6 +112,8 @@ ul.timeline > li:before {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     color: #fafafa;
+    width: 100%;
+    text-align: center;
 }
 
 /* --------------------- colours -------*/
@@ -179,63 +181,6 @@ tracklist {
     margin-top: 15px;
 }
 
-
-/* --------------------- footer -------*/
-
-footer {
-    background-color: #000000;
-    color: #fafafa;
-    min-height: 100px;
-    margin: 0;
-}
-
-
-.foot-logo {
-    background-image: url("../images/footer.jpg");
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 60px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-
-.social-links {
-    position: absolute;
-    display: inline-block;
-    padding-bottom: 15px;
-}
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #000000;
-    background: #fafafa;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-    background: #808080;
-}
-
-.list-inline li {
-    display: inline-block;
-    padding-right: 5px;
-    padding-left: 5px;
-}
-
 /* --------------------- image grid -------*/
 
 .image-grid {
@@ -268,3 +213,60 @@ footer {
     min-width: 100%;
   }
 }
+
+/* --------------------- footer -------*/
+
+footer {
+    background-color: #000000;
+    color: #fafafa;
+    min-height: 100px;
+    margin: 0;
+}
+
+
+.foot-logo {
+    background-image: url("../images/footer.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 60px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.social-links {
+    padding-bottom: 15px;
+    width: 100%;
+    padding: 0 30%;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #000000;
+    background: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #808080;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
