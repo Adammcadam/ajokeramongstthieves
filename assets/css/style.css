@@ -7,11 +7,11 @@ header {
 }
 
 .logo {
-    background-image: url("../images/header.png");
+    background-image: url("../images/Header2.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 240px;
+    min-height: 48px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -173,9 +173,17 @@ ul.timeline > li:before {
     text-transform: uppercase;
 }
 
-tracklist {
-    color: #fafafa;
-    text-transform: uppercase;
+
+.audio-logo {
+    
+    display: inline-block;
+    padding: 25px;
+    text-align: center;
+}    
+
+.img-rounded {
+    width: 100%;
+    padding: 10px;
 }
 
 
