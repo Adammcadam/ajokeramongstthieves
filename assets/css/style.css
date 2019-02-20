@@ -291,10 +291,16 @@ footer {
     .foot-logo {
         background-position: center;
     }
+    .logo {
+        min-height: 80px
+    }
 }
 
 @media(min-width: 992px) {
         .social-links {
         padding: 0 43.5%;
+    }
+        .logo {
+        min-height: 100px
     }
 }
