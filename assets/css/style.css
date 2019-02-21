@@ -7,8 +7,9 @@ header {
 }
 
 .logo {
-    background-image: url("../images/Header2.png");
-    background-size: cover;
+    background-image: url("../images/footer.jpg");
+    background-size: contain;
+    background-color: #000000;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 48px;
@@ -171,6 +172,7 @@ ul.timeline > li:before {
 .tracklist {
     color: #fafafa;
     text-transform: uppercase;
+    display: inherit;
 }
 
 
@@ -296,11 +298,11 @@ footer {
     }
 }
 
-@media(min-width: 992px) {
+@media(min-width: 1024px) {
         .social-links {
-        padding: 0 43.5%;
+        padding: 0 43.97%;
     }
         .logo {
-        min-height: 100px
+        min-height: 230px
     }
 }
