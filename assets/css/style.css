@@ -173,6 +173,7 @@ ul.timeline > li:before {
     color: #fafafa;
     text-transform: uppercase;
     display: inherit;
+    font-weight: 900;
 }
 
 
@@ -193,13 +194,29 @@ ul.timeline > li:before {
 
 .image-grid {
     color: #fafafa;
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
     margin: 0;
+    padding: 0;
+}
+
+.column-image {
+    flex: 25%;
+    max-width: 25%;
     padding: 0;
 }
 
 .btn-primary:hover {
     background-color: #808080;
+}
+
+.headline {
+    text-transform: uppercase;
+    color: #fafafa;
+    margin: 10px;
+    display: block;
+    text-align: center;
+    font-weight: 900;
 }
 
 /* --------------------- Contact -------*/
