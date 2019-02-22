@@ -80,6 +80,7 @@ section {
     background-color: #191919;
     color: #fafafa;
     position: left;
+    font-weight: 900;
 }
 
 
@@ -312,6 +313,10 @@ footer {
     }
     .logo {
         min-height: 80px
+    }
+    .column-image {
+        flex: 100%;
+        max-width: 100%;
     }
 }
 
