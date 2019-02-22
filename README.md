@@ -36,3 +36,8 @@ All link were tested as well as all audio and video players.
 I had planned on using the bands logo as the header for all my pages however this proved to be too large and cover most of the page before any content was put onto the page so i instead settled for the bands typographic name "A Joker Among Theives", which work much better for the whole user experience. 
 I had also planned to use Javascript to enable the user to choose from songs listed however decided to make it easier for the user and split each song. Finally the navigation bar was changed as there was no hint of what page you were on when you click on each navigation item.
 
+# Credits
+
+### Media
+
+All media items were obtained through the bands facebook page https://en-gb.facebook.com/AJokerAmongThieves/
