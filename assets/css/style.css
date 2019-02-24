@@ -230,6 +230,13 @@ ul.timeline > li:before {
     margin-top: 15px;
 }
 
+.contact-record {
+    text-align: center
+    text-transform: uppercase;
+    color: #000000;
+    
+}
+
 /* --------------------- image grid -------*/
 
 .image-grid {
