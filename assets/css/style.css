@@ -7,12 +7,12 @@ header {
 }
 
 .logo {
-    background-image: url("../images/footer.jpg");
-    background-size: contain;
+    background-image: url("../images/headlogo.png");
+    background-size: cover;
     background-color: #000000;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 48px;
+    min-height: 70px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -314,7 +314,7 @@ footer {
         background-position: center;
     }
     .logo {
-        min-height: 80px
+        min-height: 100px
     }
     .column-image {
         flex: 100%;
@@ -327,6 +327,6 @@ footer {
         padding: 0 43.5%;
     }
         .logo {
-        min-height: 230px
+        min-height: 160px
     }
 }
